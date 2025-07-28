@@ -5,9 +5,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.resolve()
 
 class APIConfig:
-    OPENWEATHER_API_KEY = "5e380a740a7dd2d078ac8801c8d81511"
-    GROQ_API_KEY = "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"
-    NEWS_API_KEY = "f26a3376aa614254aa547d03e3105a0c"  # replace with your actual NewsAPI key
+    OPENWEATHER_API_KEY = " Replace Your Openweather api key"
+    GROQ_API_KEY = "Replace Your Groq api key here"
+    NEWS_API_KEY = "Your News api key"  # replace with your actual NewsAPI key
 
     OPENWEATHER_BASE_URL = "https://api.openweathermap.org/data/2.5"
     CURRENT_WEATHER_URL = f"{OPENWEATHER_BASE_URL}/weather"
